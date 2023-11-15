@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	text-align: center;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif
+}
+
+form {
+	padding: 50px 20px;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+form .logotipo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    color: red;
+    font-size: 50px;
+}
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    color: red;
+    font-size: 20px;
+}
+
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+    font-family: 'Bebas Neue', sans-serif;
+    width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 30px;
+	border: none;
+}
+
+.link-sin-resalte {
+	text-decoration: none;
+	color: inherit;
+}
+
+a {
+    font-family: 'Bebas Neue', sans-serif;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 30px;
+	border: none;
+
+}
+
+
